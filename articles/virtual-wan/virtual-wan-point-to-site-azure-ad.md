@@ -93,7 +93,7 @@ A User VPN configuration defines the parameters for connecting remote clients.
    * **Configuration name** - Enter the name you want to call your User VPN Configuration.
    * **Tunnel type** - Select OpenVPN.
    * **Authentication method** - Select Azure Active Directory.
-   * **Audience** - Type in the Application ID of the [Azure VPN](openvpn-azure-ad-tenant.md) Enterprise Application registered in your Azure AD tenant. 
+   * **Audience** - Type in the Application ID of the [Azure VPN Client](openvpn-azure-ad-tenant.md) Enterprise Application registered in your Azure AD tenant. 
    * **Issuer** - `https://sts.windows.net/<your Directory ID>/`
    * **AAD Tenant** - `https://login.microsoftonline.com/<your Directory ID>`
   
